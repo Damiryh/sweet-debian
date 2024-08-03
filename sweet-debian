@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+apt update && apt upgrade
+
+# Installing i3
+apt install xorg i3 &&
+apt install brightnessctl &&
+apt install network-manager-gnome feh &&
+
